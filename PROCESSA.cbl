@@ -95,7 +95,7 @@
 
            READ CAD
            AT END
-           GO TO FINALIZAR
+           PERFORM FINALIZAR
            NOT AT END
            ADD 1 TO WS-LIDOS
 
@@ -128,7 +128,7 @@
 
            END-IF.
 
-               GO TO LER-ARQUIVO.
+               PERFORM LER-ARQUIVO.
 
            FINALIZAR.
             CLOSE CAD  MOVEAPRO MOVEREPRO
