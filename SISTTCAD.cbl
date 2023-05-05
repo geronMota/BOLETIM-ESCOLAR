@@ -134,9 +134,9 @@
             "TECLE 'N' PARA TERMINAR O PROGRAMA".
             ACCEPT WS-OPCAO.
             IF WS-OPCAO = "S" THEN
-                GO TO INICIO.
+                PERFORM INICIO.
             IF WS-OPCAO = "N" THEN
-                GO TO FINALIZAR.
+                PERFORM FINALIZAR.
 
 
            FINALIZAR.
